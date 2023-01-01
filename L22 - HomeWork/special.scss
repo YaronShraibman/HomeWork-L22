@@ -1,0 +1,34 @@
+body {
+  background-color: lightpink;
+}
+
+#header, #footer {
+  background-color: blue;
+  color: yellow;
+}
+
+#form {
+  background-color: aquamarine;
+
+  #userName {
+    color: #e507ae;
+  }
+
+  #password {
+    color: saddlebrown;
+  }
+}
+
+@mixin validation($colory:red) {
+  font-family: Arial;
+  font-weight: 700;
+  color: $colory
+}
+
+#error {
+  @include validation()
+}
+
+#success {
+  @include validation($colory: green)
+}

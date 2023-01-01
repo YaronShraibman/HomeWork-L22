@@ -1,0 +1,32 @@
+body {
+  background-color: lightpink;
+}
+
+#header, #footer {
+  background-color: blue;
+  color: yellow;
+}
+
+#form {
+  background-color: aquamarine;
+}
+#form #userName {
+  color: #e507ae;
+}
+#form #password {
+  color: saddlebrown;
+}
+
+#error {
+  font-family: Arial;
+  font-weight: 700;
+  color: red;
+}
+
+#success {
+  font-family: Arial;
+  font-weight: 700;
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
